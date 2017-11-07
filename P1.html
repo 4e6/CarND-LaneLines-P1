@@ -11894,7 +11894,7 @@ div#notebook {
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.image.AxesImage at 0x7fcffbb3cc18&gt;</pre>
+<pre>&lt;matplotlib.image.AxesImage at 0x7fe57b309be0&gt;</pre>
 </div>
 
 </div>
@@ -13703,7 +13703,7 @@ BdzHYUHoF7CABSzgPg4LQr+ABSxgAfdxWBD6BSxgAQu4j8OC0C9gAQtYwH0cFoR+AQtYwALu47Ag
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.image.AxesImage at 0x7fcfc8f3bf60&gt;</pre>
+<pre>&lt;matplotlib.image.AxesImage at 0x7fe5486fcf98&gt;</pre>
 </div>
 
 </div>
@@ -15264,7 +15264,7 @@ AAAAAElFTkSuQmCC
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.image.AxesImage at 0x7fcfc8f20cf8&gt;</pre>
+<pre>&lt;matplotlib.image.AxesImage at 0x7fe5486dfd30&gt;</pre>
 </div>
 
 </div>
@@ -16223,7 +16223,7 @@ A8VMg9LL0WaNHgCGw/5a4FtgAvgUWBjSF4XjiXB+bdl2t1GPe4GjwWc+B5bV3V+AV4BTwAngA2Ch
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.image.AxesImage at 0x7fcfc8c66320&gt;</pre>
+<pre>&lt;matplotlib.image.AxesImage at 0x7fe548425358&gt;</pre>
 </div>
 
 </div>
@@ -17042,7 +17042,7 @@ QN+QhjSkIc+4NIC+IQ1pSEOecWkAfUMa0pCGPOPSAPqGNKQhDXnGpQH0DWlIQxryjEsD6BvSkIY0
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.image.AxesImage at 0x7fcfc441d8d0&gt;</pre>
+<pre>&lt;matplotlib.image.AxesImage at 0x7fe5443dd908&gt;</pre>
 </div>
 
 </div>
@@ -17190,7 +17190,7 @@ QS9JHWfQS1LHGfSS1HEGvSR13P8DFYUZrhDH9GIAAAAASUVORK5CYII=
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.image.AxesImage at 0x7fcfc437a668&gt;</pre>
+<pre>&lt;matplotlib.image.AxesImage at 0x7fe54433d6a0&gt;</pre>
 </div>
 
 </div>
@@ -17313,7 +17313,7 @@ nEEvSZ37f1Y74Uc+JKkiAAAAAElFTkSuQmCC
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.image.AxesImage at 0x7fcfc4354550&gt;</pre>
+<pre>&lt;matplotlib.image.AxesImage at 0x7fe544314588&gt;</pre>
 </div>
 
 </div>
@@ -17435,7 +17435,7 @@ Pwrm0lxd5Z5fAAAAAElFTkSuQmCC
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.image.AxesImage at 0x7fcfc42a99b0&gt;</pre>
+<pre>&lt;matplotlib.image.AxesImage at 0x7fe5442689e8&gt;</pre>
 </div>
 
 </div>
@@ -18963,7 +18963,7 @@ SUVORK5CYII=
             <span class="n">y</span> <span class="o">+=</span> <span class="p">[</span><span class="n">y1</span><span class="p">,</span><span class="n">y2</span><span class="p">]</span>
     <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">polyfit</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">image_line_left</span><span class="p">(</span><span class="n">lines</span><span class="p">,</span> <span class="n">image</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">average_line_left</span><span class="p">(</span><span class="n">lines</span><span class="p">,</span> <span class="n">image</span><span class="p">):</span>
     <span class="n">x</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="n">y</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="n">ysize</span> <span class="o">=</span> <span class="n">image</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -18986,7 +18986,7 @@ SUVORK5CYII=
     <span class="n">points_new</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">x_new</span><span class="p">,</span> <span class="n">y_new</span><span class="p">])</span><span class="o">.</span><span class="n">T</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span>
     <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="n">points_new</span><span class="p">]])</span>
 
-<span class="k">def</span> <span class="nf">image_line_right</span><span class="p">(</span><span class="n">lines</span><span class="p">,</span> <span class="n">image</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">average_line_right</span><span class="p">(</span><span class="n">lines</span><span class="p">,</span> <span class="n">image</span><span class="p">):</span>
     <span class="n">x</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="n">y</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="n">ysize</span> <span class="o">=</span> <span class="n">image</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -19022,8 +19022,8 @@ SUVORK5CYII=
 <span class="n">z_left</span> <span class="o">=</span> <span class="n">extrapolate_line</span><span class="p">(</span><span class="n">lines_raw</span><span class="p">[</span><span class="n">ind_left</span><span class="p">])</span>
 <span class="n">z_right</span> <span class="o">=</span> <span class="n">extrapolate_line</span><span class="p">(</span><span class="n">lines_raw</span><span class="p">[</span><span class="n">ind_right</span><span class="p">])</span>
 
-<span class="n">line_left</span> <span class="o">=</span> <span class="n">image_line_left</span><span class="p">(</span><span class="n">lines_raw</span><span class="p">[</span><span class="n">ind_left</span><span class="p">],</span> <span class="n">img</span><span class="p">)</span>
-<span class="n">line_right</span> <span class="o">=</span> <span class="n">image_line_right</span><span class="p">(</span><span class="n">lines_raw</span><span class="p">[</span><span class="n">ind_right</span><span class="p">],</span> <span class="n">img</span><span class="p">)</span>
+<span class="n">line_left</span> <span class="o">=</span> <span class="n">average_line_left</span><span class="p">(</span><span class="n">lines_raw</span><span class="p">[</span><span class="n">ind_left</span><span class="p">],</span> <span class="n">img</span><span class="p">)</span>
+<span class="n">line_right</span> <span class="o">=</span> <span class="n">average_line_right</span><span class="p">(</span><span class="n">lines_raw</span><span class="p">[</span><span class="n">ind_right</span><span class="p">],</span> <span class="n">img</span><span class="p">)</span>
 
 <span class="n">draw_lines</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">line_left</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="p">[</span><span class="mi">255</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">thickness</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">draw_lines</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">line_right</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="p">[</span><span class="mi">255</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">thickness</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
@@ -19049,7 +19049,7 @@ SUVORK5CYII=
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.image.AxesImage at 0x7fcfc422fcf8&gt;</pre>
+<pre>&lt;matplotlib.image.AxesImage at 0x7fe5441f1cc0&gt;</pre>
 </div>
 
 </div>
@@ -20668,7 +20668,7 @@ imageio.plugins.ffmpeg.download()</code></pre>
 
 
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>100%|█████████▉| 221/222 [00:05&lt;00:00, 34.20it/s]
+<pre>100%|█████████▉| 221/222 [00:05&lt;00:00, 37.20it/s]
 </pre>
 </div>
 </div>
@@ -20682,8 +20682,8 @@ imageio.plugins.ffmpeg.download()</code></pre>
 <pre>[MoviePy] Done.
 [MoviePy] &gt;&gt;&gt;&gt; Video ready: test_videos_output/solidWhiteRight.mp4 
 
-CPU times: user 3.02 s, sys: 270 ms, total: 3.29 s
-Wall time: 6.12 s
+CPU times: user 3.08 s, sys: 294 ms, total: 3.37 s
+Wall time: 6.82 s
 </pre>
 </div>
 </div>
@@ -20770,8 +20770,8 @@ Wall time: 6.12 s
     <span class="n">ind_right</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">apply_along_axis</span><span class="p">(</span><span class="k">lambda</span> <span class="n">row</span><span class="p">:</span> <span class="n">slope</span><span class="p">(</span><span class="n">row</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">lines</span><span class="p">)</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span>
     <span class="n">ind_left</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">apply_along_axis</span><span class="p">(</span><span class="k">lambda</span> <span class="n">row</span><span class="p">:</span> <span class="n">slope</span><span class="p">(</span><span class="n">row</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">lines</span><span class="p">)</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span>
 
-    <span class="n">line_left</span> <span class="o">=</span> <span class="n">image_line_left</span><span class="p">(</span><span class="n">lines</span><span class="p">[</span><span class="n">ind_left</span><span class="p">],</span> <span class="n">img</span><span class="p">)</span>
-    <span class="n">line_right</span> <span class="o">=</span> <span class="n">image_line_right</span><span class="p">(</span><span class="n">lines</span><span class="p">[</span><span class="n">ind_right</span><span class="p">],</span> <span class="n">img</span><span class="p">)</span>
+    <span class="n">line_left</span> <span class="o">=</span> <span class="n">average_line_left</span><span class="p">(</span><span class="n">lines</span><span class="p">[</span><span class="n">ind_left</span><span class="p">],</span> <span class="n">img</span><span class="p">)</span>
+    <span class="n">line_right</span> <span class="o">=</span> <span class="n">average_line_right</span><span class="p">(</span><span class="n">lines</span><span class="p">[</span><span class="n">ind_right</span><span class="p">],</span> <span class="n">img</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">draw_line</span><span class="p">(</span><span class="n">line</span><span class="p">):</span>
         <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
@@ -20829,7 +20829,7 @@ Wall time: 6.12 s
 
 
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>100%|█████████▉| 681/682 [00:23&lt;00:00, 28.83it/s]
+<pre>100%|█████████▉| 681/682 [00:22&lt;00:00, 30.46it/s]
 </pre>
 </div>
 </div>
@@ -20843,8 +20843,8 @@ Wall time: 6.12 s
 <pre>[MoviePy] Done.
 [MoviePy] &gt;&gt;&gt;&gt; Video ready: test_videos_output/solidYellowLeft.mp4 
 
-CPU times: user 13 s, sys: 719 ms, total: 13.7 s
-Wall time: 24.6 s
+CPU times: user 12.7 s, sys: 624 ms, total: 13.3 s
+Wall time: 23.3 s
 </pre>
 </div>
 </div>
@@ -20953,7 +20953,7 @@ Wall time: 24.6 s
 
 
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>100%|██████████| 251/251 [00:18&lt;00:00, 13.55it/s]
+<pre>100%|██████████| 251/251 [00:18&lt;00:00, 13.84it/s]
 </pre>
 </div>
 </div>
@@ -20967,8 +20967,8 @@ Wall time: 24.6 s
 <pre>[MoviePy] Done.
 [MoviePy] &gt;&gt;&gt;&gt; Video ready: test_videos_output/challenge.mp4 
 
-CPU times: user 8.62 s, sys: 798 ms, total: 9.42 s
-Wall time: 20.5 s
+CPU times: user 8.89 s, sys: 731 ms, total: 9.62 s
+Wall time: 20.1 s
 </pre>
 </div>
 </div>
